@@ -1,0 +1,395 @@
+body    {
+    background: black;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1000px;
+    background: white;
+    margin: 40px auto;
+}
+
+h1 {
+    color: red;
+    font-size: 14px;
+    margin: 0;
+}
+
+nav {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    height: 50px;
+    width: 120px;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+li:hover {
+    background: green;
+}
+
+.active {
+    background: green;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.section1 {
+    justify-content: center;
+}
+
+.section1 h1 {
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+}
+
+.section1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: black
+}
+
+.section .content {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.section1 .content .card {
+    width: 25%;
+    float: left;
+}
+
+.content .left .card img {
+    width: 100%;
+    height: 230px;
+}
+
+.section2 {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+
+.section2 h1 {
+    font-size: 45px;
+    margin-top: 300px;
+    color: black;
+}
+
+
+.section2 .content {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.section2 .content .kiri {
+    width: 50%;
+    float: left;
+    padding: 0px 10px;
+}
+
+
+.section2 .content .kiri .card {
+    padding: 10px 10px;
+    font-size: 30px;
+    color: #fff;
+    background-color: grey;
+}
+
+.kiri .card img{
+    width: 100%;
+}
+
+.section2 .content .kanan .card {
+    padding: 40px 40px;
+    font-size: 30px ;
+    background-color: grey;
+    height: 47px;
+}
+
+.card a {
+    text-decoration: none;
+    margin: 30px;
+    color: black;
+}
+
+.card a:hover {
+    color: azure ;
+}
+
+.section3 {
+    justify-content: center;
+}
+
+.section3 h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+}
+.section3 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+
+.section3 .content .card {
+    width: 25%;
+    float: left;
+}
+
+.section3 .content .card img {
+    width: 80px;
+    border-radius: 50%;
+    margin: 50px 0px 0px 0px;
+}
+
+.section3 .content .card .IG {
+    color: #f46f30;
+}
+
+.section3 .content .card.WA {
+    color: #075E54 ;
+}
+
+.section3 .content .card .FB {
+    color: rgb(0, 17, 255);
+}
+.section3 .content .card .TT {
+    color: #69C9D0;
+}
+
+.section3 .content .card .WA {
+    color: #25d366;
+}
+
+.section4 {
+    justify-content: center;
+}
+
+.section4 h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 300px;
+    color: black;
+}
+
+.section4 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.section4 .content .card {
+    width: 25%;
+    float: left;
+    font-size: 20px;
+}
+
+.section4 .content .card h2 {
+    font-family: 'sans-serif ms';
+    font-size: 35px;
+    color: white;
+}
+
+.section4 .content .card p {
+    text-align: center;
+    font-family: 'sans-serif ms';
+    color: white;
+}
+
+.section5 {
+    justify-content: center;
+}
+
+.section5 h1 {
+    font-size:50px;
+    font-family: 'sans-serif ms';
+    margin-top: 300px;
+    color: black;
+    text-align: center;
+}
+
+.section5 .content .kiri .card {
+    width: 100%;
+    text-align: center;
+}
+
+.bg_red {
+    background-color: blue;
+    height: 190px;
+}
+
+.bg_yellow {
+    background-color: aqua;
+    height: 190px;
+}
+
+.bg_blue {
+    background-color: aquamarine;
+    height: 190px;
+}
+
+.bg_black {
+    background-color: rgb(13, 182, 248);
+    height: 190px;
+}
+
+footer {
+    margin-top: 200px !important;
+}
+
+footer h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    color: black;
+}
+
+* *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    } */
+    
+ 
+    
+    form {
+    max-width: 800px;
+    margin: 15px auto;
+    padding-right: 40px;
+    padding-left: 10px;
+    padding-top: 20px;
+    background: grey;
+    border-radius: 8px;
+    }
+    
+ 
+    
+    input[type="text"],
+    input[type="password"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="time"],
+    input[type="url"],
+    textarea,
+    select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color: green;
+    }
+    
+    select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+    }
+    
+    button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+    }
+    
+    fieldset {
+    margin-bottom: 30px;
+    border: none;
+    }
+    
+    legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 8px;
+    }
+    
+    label.light {
+    font-weight: 300;
+    display: inline;
+    }
+    
+    .number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+    }
+    
+    @media screen and (min-width: 480px) {
+    
+    form {
+    max-width: 800px;
+    }
+    
+    }
