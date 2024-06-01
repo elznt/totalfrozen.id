@@ -119,7 +119,7 @@ li:hover {
     padding: 10px 10px;
     font-size: 30px;
     color: #fff;
-    background-color: grey;
+    background-color: rgb(124, 181, 235);
 }
 
 .kiri .card img{
@@ -129,8 +129,8 @@ li:hover {
 .section2 .content .kanan .card {
     padding: 40px 40px;
     font-size: 30px ;
-    background-color: grey;
-    height: 47px;
+    background-color: aqua;
+    height: 123px;
 }
 
 .card a {
